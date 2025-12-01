@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: indo-sentiment-engine
+Version: 0.1.0
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: transformers
+Requires-Dist: peft
+Requires-Dist: datasets
+Requires-Dist: scikit-learn
+Requires-Dist: numpy
+Requires-Dist: pandas
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python

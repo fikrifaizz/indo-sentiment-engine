@@ -1,0 +1,39 @@
+# --- CORE MACHINE LEARNING (PYTORCH) ---
+# Versi 2.2+ wajib untuk stabilitas MPS (Metal) yang lebih baik
+torch>=2.2.2
+torchvision>=0.17.2
+torchaudio>=2.2.2
+
+# --- HUGGINGFACE ECOSYSTEM ---
+# Transformers terbaru mendukung integrasi MPS lebih baik
+transformers>=4.39.0
+# Library dataset untuk loading parquet efisien
+datasets>=2.18.0
+# Library LoRA (Parameter-Efficient Fine-Tuning)
+peft>=0.10.0
+# Library pendukung untuk training loop yang optimal
+accelerate>=0.28.0
+evaluate>=0.4.1
+
+# --- VECTOR DATABASE ---
+# ChromaDB native python client
+chromadb>=0.4.24
+
+# --- DATA ENGINEERING & SCIENCE ---
+pandas>=2.2.0
+numpy>=1.26.0
+scikit-learn>=1.4.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+tqdm>=4.66.0
+
+# --- MLOPS (TRACKING & VERSIONING) ---
+dvc>=3.48.0
+dagshub>=0.3.23
+mlflow>=2.11.0
+
+# --- API DEPLOYMENT ---
+fastapi>=0.110.0
+uvicorn>=0.29.0
+python-multipart>=0.0.9
+pydantic>=2.6.0
