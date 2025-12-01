@@ -100,15 +100,15 @@ Menganalisis sentimen teks input.
 **Request:**
 ```json
 {
-  "text": "Barang bagus banget, pengiriman juga cepet!"
+  "text": "Barang ini jelek banget, nyesel beli di sini."
 }
 ```
 **Response:**
 ```json
 {
-  "text": "Barang bagus banget, pengiriman juga cepet!",
-  "sentiment": "Positif",
-  "confidence": 0.985
+  "text": "Barang ini jelek banget, nyesel beli di sini.",
+  "sentiment": "Negatif",
+  "confidence": 0.9927
 }
 ```
 ### 2. `/search` (POST)
