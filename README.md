@@ -17,7 +17,7 @@
 | Sentiment Analysis | Semantic Search |
 | :---: | :---: |
 | ![Sentiment Demo](docs/demo_sentiment.jpeg) | ![Search Demo](docs/demo_search.png) |
-| *Mendeteksi sentimen negatif pada slang "parah"* | *Mencari "barang hancur" menemukan "paket penyok"* |
+| *Mendeteksi sentimen negatif pada slang "parah"* | *Mencari "pengiriman lambat" menemukan "baik pengiriman agak lambat"* |
 
 ## Business Problem & Solution
 
