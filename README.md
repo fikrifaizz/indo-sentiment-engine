@@ -65,6 +65,7 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 
 # Install Dependencies (Optimized for Mac M-Series / Linux)
 pip install -r requirements.txt
+```
 
 ### 2. Setup Model & Data
 Script ini akan mengunduh Model Base dan melakukan ETL data.
@@ -91,7 +92,7 @@ docker build -tindo-insight:v1 .
 docker run -p 8080:8080indo-insight:v1
 ```
 
-## 🔌 API Documentation
+## API Documentation
 
 ### 1. `/analyze` (POST)
 Menganalisis sentimen teks input.
@@ -135,7 +136,7 @@ Mencari ulasan serupa berdasarkan kesamaan makna (semantic similarity).
   ]
 }
 ```
-## 👨‍💻 Author
+## Author
 
 **Fikri Faiz Zulfadhli**
 *Machine Learning Engineer*
