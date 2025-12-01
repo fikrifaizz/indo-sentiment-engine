@@ -138,7 +138,7 @@ Mencari ulasan serupa berdasarkan kesamaan makna (semantic similarity).
 ```
 ## Author
 
-**Fikri Faiz Zulfadhli**
+**Fikri Faiz Zulfadhli** | 
 *Machine Learning Engineer*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/fikri-faiz-zulfadhli/)
